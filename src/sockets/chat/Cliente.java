@@ -62,10 +62,10 @@ public class Cliente extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Lista de usuarios conectados");
 
         jTextArea2.setBackground(new java.awt.Color(255, 255, 255));
@@ -80,23 +80,26 @@ public class Cliente extends javax.swing.JFrame {
         SalidaEvento.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
         SalidaEvento.setForeground(new java.awt.Color(0, 0, 0));
         SalidaEvento.setText("Enviar");
+        SalidaEvento.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         SalidaEvento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SalidaEventoActionPerformed(evt);
             }
         });
 
-        jTextField3.setBackground(new java.awt.Color(204, 204, 204));
+        jTextField3.setBackground(new java.awt.Color(0, 153, 153));
         jTextField3.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        jTextField3.setForeground(new java.awt.Color(0, 0, 0));
+        jTextField3.setForeground(new java.awt.Color(255, 255, 255));
         jTextField3.setText("Escribir mensaje...");
         jTextField3.setBorder(null);
 
         jList1.setBackground(new java.awt.Color(255, 255, 255));
+        jList1.setBorder(javax.swing.BorderFactory.createCompoundBorder());
         jList1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        jList1.setForeground(new java.awt.Color(204, 0, 51));
+        jList1.setForeground(new java.awt.Color(102, 102, 255));
         jScrollPane2.setViewportView(jList1);
 
+        jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane4.setViewportView(jTextArea1);
