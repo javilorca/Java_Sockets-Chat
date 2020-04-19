@@ -62,7 +62,7 @@ public class Cliente extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(7, 158, 196));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -87,7 +87,7 @@ public class Cliente extends javax.swing.JFrame {
             }
         });
 
-        jTextField3.setBackground(new java.awt.Color(0, 153, 153));
+        jTextField3.setBackground(new java.awt.Color(7, 158, 196));
         jTextField3.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jTextField3.setForeground(new java.awt.Color(255, 255, 255));
         jTextField3.setText("Escribir mensaje...");
